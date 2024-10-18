@@ -245,7 +245,6 @@ Vue.component('card', {
     },
 })
 
-
 Vue.component('column', {
     props: {
         column_id: {
