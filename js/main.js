@@ -73,9 +73,6 @@ Vue.component('creator', {
             return copy;
         }
     },
-    mounted(){
-
-    }
 })
 
 Vue.component('card', {
