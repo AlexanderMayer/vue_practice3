@@ -272,9 +272,6 @@ Vue.component('column', {
         
     </div>
     `,
-    methods:{
-
-    },
     mounted(){
         eventBus.$on('need-create-card', ()=>{
             if(this.column_id == 'first'){
