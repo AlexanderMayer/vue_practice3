@@ -315,11 +315,13 @@ Vue.component('column', {
                     this.list.splice(index, 1);
                 }
             }),
+
             eventBus.$on('delete-from-third',(index)=>{
                 if(this.column_id=='third'){
                     this.list.splice(index, 1);
                 }
             }),
+
             eventBus.$on('move-card-to-fourth', (copy)=>{
                 if(this.column_id=='fourth'){
                     this.list.push(copy);
