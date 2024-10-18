@@ -101,7 +101,7 @@ Vue.component('card', {
             blankForRedaction:{
                 dateOfRed:{
                     year: new Date().getFullYear(),
-                    month: new Date().getMonth(),
+                    month: (new Date().getMonth()) + 1,
                     day: new Date().getDate(),
                     hour: new Date().getHours(),
                     min: new Date().getMinutes(),
