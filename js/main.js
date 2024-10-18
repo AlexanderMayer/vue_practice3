@@ -243,9 +243,6 @@ Vue.component('card', {
             return copy;
         },
     },
-    mounted(){
-
-    }
 })
 
 
